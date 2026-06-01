@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brillance Express | Service de Nettoyage Professionnel & Écologique</title>
+    <meta name="description" content="Brillance Express vous propose des services de nettoyage professionnels pour particuliers et professionnels. Estimez votre tarif en ligne et réservez en 2 minutes !">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+                <span>Brillance<span>Express</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#calculateur">Calculateur de Tarif</a></li>
+                    <li><a href="#temoignages">Avis</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#calculateur" class="btn btn-primary">Réserver un Nettoyage</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Ouvrir le menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-eco">
+                    <i class="fa-solid fa-leaf"></i> Produits 100% Écologiques
+                </div>
+                <h1>Un intérieur étincelant, sans le moindre effort.</h1>
+                <p>Services de nettoyage sur-mesure pour particuliers et professionnels. Des agents qualifiés, des produits respectueux de l'environnement et une satisfaction 100% garantie.</p>
+                <div class="hero-buttons">
+                    <a href="#calculateur" class="btn btn-primary btn-lg">Estimer mon tarif <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#services" class="btn btn-secondary btn-lg">Découvrir les services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>4.9<i class="fa-solid fa-star star-icon"></i></h3>
+                        <p>Note moyenne</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10k+</h3>
+                        <p>Prestations réalisées</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Satisfait ou Refait</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-blob"></div>
+                <img src="images/hero-cleaner.png" alt="Agent de nettoyage professionnel Brillance Express" class="hero-img" id="heroImage">
+            </div>
+        </div>
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,57.05,18.3,88.47,26.85,152.42,44.29,220.24,57.19,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Key Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Pourquoi choisir Brillance Express ?</h2>
+                <p>Nous faisons plus que nettoyer, nous créons un espace sain pour vous et vos proches.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3>Professionnels Agréés</h3>
+                    <p>Tous nos agents sont rigoureusement sélectionnés, formés et assurés pour votre tranquillité d'esprit.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-hands-wash"></i>
+                    </div>
+                    <h3>Éco-Responsable</h3>
+                    <p>Nous utilisons exclusivement des produits certifiés écologiques, sûrs pour vos enfants et animaux.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+                    <h3>Flexibilité Totale</h3>
+                    <p>Planifiez en ligne en quelques clics : prestations ponctuelles, hebdomadaires ou mensuelles.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                    <h3>Garantie Qualité</h3>
+                    <p>Si vous n'êtes pas entièrement satisfait du résultat, nous revenons nettoyer gratuitement sous 24h.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Prestations sur-mesure</span>
+                <h2>Des services adaptés à tous vos besoins</h2>
+                <p>Découvrez notre gamme complète de prestations de nettoyage de haute qualité.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-residential.jpg" alt="Nettoyage Résidentiel" id="imgRes">
+                        <div class="service-price">Dès 19€ /h</div>
+                    </div>
+                    <div class="service-body">
+                        <h3>Nettoyage Résidentiel</h3>
+                        <p>Entretien régulier de votre maison ou appartement : sols, poussière, cuisine et sanitaires pour un quotidien serein.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Dépoussiérage complet</li>
+                            <li><i class="fa-solid fa-check"></i> Nettoyage des sols</li>
+                            <li><i class="fa-solid fa-check"></i> Désinfection des sanitaires</li>
+                        </ul>
+                        <a href="#calculateur" class="btn btn-outline btn-block">Simuler un devis</a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-deep.jpg" alt="Grand Nettoyage de Printemps" id="imgDeep">
+                        <div class="service-price">Dès 25€ /h</div>
+                    </div>
+                    <div class="service-body">
+                        <h3>Grand Nettoyage / Printemps</h3>
+                        <p>Un nettoyage en profondeur de votre logement pour éliminer la saleté accumulée dans les moindres recoins.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Intérieur des placards</li>
+                            <li><i class="fa-solid fa-check"></i> Lessivage des portes et plinthes</li>
+                            <li><i class="fa-solid fa-check"></i> Nettoyage des vitres inclus</li>
+                        </ul>
+                        <a href="#calculateur" class="btn btn-outline btn-block">Simuler un devis</a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-office.jpg" alt="Nettoyage de Bureaux" id="imgOffice">
+                        <div class="service-price">Sur Devis</div>
+                    </div>
+                    <div class="service-body">
+                        <h3>Locaux & Bureaux</h3>
+                        <p>Assurez la propreté de vos espaces de travail pour le bien-être de vos collaborateurs et l'image de votre entreprise.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Vidage des corbeilles</li>
+                            <li><i class="fa-solid fa-check"></i> Nettoyage des postes de travail</li>
+                            <li><i class="fa-solid fa-check"></i> Entretien des espaces communs</li>
+                        </ul>
+                        <a href="#calculateur" class="btn btn-outline btn-block">Simuler un devis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator & Booking Section -->
+    <section id="calculateur" class="booking-section">
+        <div class="container">
+            <div class="booking-grid">
+                
+                <!-- Calculator Panel -->
+                <div class="calculator-panel">
+                    <h2>Estimez votre tarif en temps réel</h2>
+                    <p class="panel-intro">Sélectionnez vos critères pour obtenir une estimation instantanée et transparente.</p>
+                    
+                    <form id="quoteForm">
+                        <div class="form-group">
+                            <label for="serviceType">Type de service</label>
+                            <div class="select-wrapper">
+                                <select id="serviceType" class="form-control">
+                                    <option value="19" data-name="Nettoyage Résidentiel">Nettoyage Résidentiel (19€/h)</option>
+                                    <option value="25" data-name="Grand Nettoyage / Printemps">Grand Nettoyage / Printemps (25€/h)</option>
+                                    <option value="29" data-name="Nettoyage Fin de Chantier">Nettoyage Fin de Chantier (29€/h)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="surfaceArea">Superficie du logement (m²)</label>
+                            <div class="range-container">
+                                <input type="range" id="surfaceArea" min="20" max="250" value="70" class="range-slider">
+                                <span class="range-value" id="surfaceVal">70 m²</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Services Optionnels (Extras)</label>
+                            <div class="extras-grid">
+                                <label class="extra-checkbox-card">
+                                    <input type="checkbox" name="extra" value="15" data-name="Nettoyage des vitres">
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-window-maximize"></i>
+                                        <span>Vitres (+15€)</span>
+                                    </div>
+                                </label>
+                                <label class="extra-checkbox-card">
+                                    <input type="checkbox" name="extra" value="20" data-name="Nettoyage du four">
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-fire-burner"></i>
+                                        <span>Four (+20€)</span>
+                                    </div>
+                                </label>
+                                <label class="extra-checkbox-card">
+                                    <input type="checkbox" name="extra" value="20" data-name="Nettoyage du réfrigérateur">
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-snowflake"></i>
+                                        <span>Frigo (+20€)</span>
+                                    </div>
+                                </label>
+                                <label class="extra-checkbox-card">
+                                    <input type="checkbox" name="extra" value="25" data-name="Repassage à domicile">
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-shirt"></i>
+                                        <span>Repassage (+25€)</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="frequency">Fréquence de nettoyage</label>
+                            <div class="frequency-options">
+                                <label class="freq-radio">
+                                    <input type="radio" name="frequency" value="1" checked>
+                                    <span class="freq-btn">Ponctuel</span>
+                                </label>
+                                <label class="freq-radio">
+                                    <input type="radio" name="frequency" value="0.9">
+                                    <span class="freq-btn">Hebdo (-10%)</span>
+                                </label>
+                                <label class="freq-radio">
+                                    <input type="radio" name="frequency" value="0.95">
+                                    <span class="freq-btn">Mensuel (-5%)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Booking Panel / Quote Display -->
+                <div class="booking-panel">
+                    <div class="quote-display">
+                        <span class="quote-title">Estimation de votre tarif</span>
+                        <div class="price-container">
+                            <span class="price" id="totalPrice">66</span><span class="currency">€</span>
+                            <span class="price-type" id="priceType">TTC</span>
+                        </div>
+                        <p class="price-detail" id="priceBreakdown">Estimation basée sur 3h de nettoyage résidentiel.</p>
+                    </div>
+
+                    <div class="booking-form-wrapper">
+                        <h3>Demander ma réservation</h3>
+                        <form id="bookingForm">
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <input type="text" id="custName" class="form-control" placeholder="Votre nom complet" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <input type="email" id="custEmail" class="form-control" placeholder="Adresse email" required>
+                                </div>
+                                <div class="form-group col">
+                                    <input type="tel" id="custPhone" class="form-control" placeholder="Téléphone" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <input type="date" id="bookDate" class="form-control" required>
+                                </div>
+                                <div class="form-group col">
+                                    <select id="bookTime" class="form-control" required>
+                                        <option value="" disabled selected>Heure souhaitée</option>
+                                        <option value="matin">Matin (8h00 - 12h00)</option>
+                                        <option value="aprem">Après-midi (13h00 - 17h00)</option>
+                                        <option value="soir">Fin de journée (17h00 - 20h00)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-lg">Confirmer la demande de devis</button>
+                            <p class="booking-note"><i class="fa-solid fa-lock"></i> Paiement sécurisé après prestation. Aucun frais débité aujourd'hui.</p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Ce que disent nos clients</span>
+                <h2>Ils nous font confiance pour leur intérieur</h2>
+            </div>
+            
+            <div class="testimonial-slider-container">
+                <div class="testimonials-wrapper" id="testimonialsWrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Prestation impeccable ! L'agent de nettoyage était très ponctuel et a laissé mon appartement d'une propreté incroyable. Le calculateur de prix sur le site est hyper pratique et correspond tout à fait à ce que j'ai payé."</p>
+                        <div class="testimonial-author">
+                            <img src="images/user1.jpg" alt="Sophie L." id="userImg1">
+                            <div>
+                                <h4>Sophie L.</h4>
+                                <p>Particulier (Paris)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Nous utilisons Brillance Express pour le nettoyage hebdomadaire de nos bureaux. Équipe sérieuse, discrète et très professionnelle. Le service client est toujours disponible et à l'écoute de nos besoins spécifiques."</p>
+                        <div class="testimonial-author">
+                            <img src="images/user2.jpg" alt="Marc A." id="userImg2">
+                            <div>
+                                <h4>Marc A.</h4>
+                                <p>Directeur d'Agence (Lyon)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"J'ai demandé un grand nettoyage avant l'état des lieux de sortie de mon appartement. Le propriétaire a été impressionné par la propreté, surtout de la cuisine et de la salle de bain. J'ai récupéré toute ma caution !"</p>
+                        <div class="testimonial-author">
+                            <img src="images/user3.jpg" alt="Elodie D." id="userImg3">
+                            <div>
+                                <h4>Elodie D.</h4>
+                                <p>Particulier (Marseille)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info-panel">
+                <h2>Contactez-nous</h2>
+                <p>Des questions sur nos tarifs, nos méthodes de nettoyage ou nos produits ? Notre équipe est là pour vous aider.</p>
+                
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 (0)1 23 45 67 89</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@brillance-express.fr</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>12 Rue de la Propreté, 75001 Paris</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lun - Sam : 8h00 - 20h00<br>Dimanche : Fermé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-panel">
+                <h3>Envoyer un message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="contactName" class="form-control" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="contactEmail" class="form-control" placeholder="Adresse email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contactSubject" class="form-control" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contactMessage" class="form-control" rows="5" placeholder="Votre message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Envoyer le message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+                    <span>Brillance<span>Express</span></span>
+                </a>
+                <p>Brillance Express est votre partenaire de confiance pour un nettoyage de qualité, respectueux de l'environnement et de votre santé.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Liens Utiles</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#calculateur">Calculateur de Tarif</a></li>
+                    <li><a href="#temoignages">Avis Clients</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Légal</h4>
+                <ul>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                    <li><a href="#">CGV & CGU</a></li>
+                    <li><a href="#">Utilisation des Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Brillance Express. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content text-center">
+            <div class="modal-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h2>Demande Envoyée !</h2>
+            <p id="modalMsg">Nous avons bien reçu votre demande et nous vous recontacterons dans les plus brefs délais pour confirmer votre réservation.</p>
+            <button class="btn btn-primary" id="closeModal">Super, merci !</button>
+        </div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
